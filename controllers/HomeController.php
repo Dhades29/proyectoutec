@@ -4,7 +4,7 @@ class HomeController {
 
     public function index() {
         $titulo = "Inicio";
-        include 'views/layout/header.php';
+
         include 'views/home/index.php';
         include 'views/layout/footer.php';
     }
